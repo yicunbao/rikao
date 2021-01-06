@@ -1,0 +1,5 @@
+let {a}=require('./data')
+let {b}=require('./crypto')
+let x=new Date()
+console.log(a(x))
+console.log(b(1))
